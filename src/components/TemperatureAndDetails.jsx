@@ -1,7 +1,7 @@
 import React from 'react'
-import { FaWind } from 'react-icons/fa'
+import { FaSun, FaWind } from 'react-icons/fa'
 import { TbTemperature } from 'react-icons/tb'
-import { WiHumidity } from 'react-icons/wi'
+import { WiHumidity, WiSunrise, WiSunset } from 'react-icons/wi'
 
 const TemperatureAndDetails = () => {
   return (
@@ -30,6 +30,19 @@ const TemperatureAndDetails = () => {
                     </p>
                 </div>
             </div>
+        </div>
+        <div className='flex items-center gap-2 text-sm'>
+            <WiSunrise />
+            <p>Rise: 06:45 AM</p>
+            <span> |</span>
+              <WiSunset />
+            <p>Rise: 06:45 AM</p>
+            <span> |</span>
+              <WiSunrise />
+            <p>Rise: 06:45 AM</p>
+            <span> |</span>
+              <WiSunrise />
+            <p>Rise: 06:45 AM</p>
         </div>
     </div>
   )
