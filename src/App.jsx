@@ -2,6 +2,7 @@ import React from 'react'
 import TopButton from './components/TopButton'
 import InputField from './components/InputField'
 import TimeAndLocation from './components/TimeAndLocation'
+import TemperatureAndDetails from './components/TemperatureAndDetails'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <TopButton />
       <InputField />
       <TimeAndLocation />
+      <TemperatureAndDetails />
     </div>
   )
 }

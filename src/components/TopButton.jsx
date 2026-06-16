@@ -26,7 +26,7 @@ const TopButton = () => {
     ]
 
   return (
-    <div className='flex items-center justify-center gap-8 py-8'>
+    <div className='flex items-center justify-center gap-8 py-6'>
         {cities.map((city)=>(
             <button key={city.id} className='text-white font-semibold text-xl cursor-pointer'>{city.title}</button>
         ))}
