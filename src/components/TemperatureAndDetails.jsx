@@ -5,12 +5,12 @@ import { WiHumidity, WiSunrise, WiSunset } from 'react-icons/wi'
 
 const TemperatureAndDetails = () => {
   return (
-    <div className='flex flex-col items-center gap-3 text-white py-4'>
-        <h1>Clouds</h1>
-        <div className='flex items-center gap-40'>
-            <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="" />
-            <h1 className='text-6xl'>21°</h1>
-            <div className='flex flex-col text-[13px]'>
+    <div className='flex flex-col items-center mt-2 text-white '>
+        <h1 className='font-medium'>Clouds</h1>
+        <div className='flex items-center gap-30'>
+            <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="" className='w-[90px]' />
+            <h1 className='text-5xl'>21°</h1>
+            <div className='flex flex-col text-[12px]'>
                 <div className='flex items-center gap-1'>
                     <TbTemperature />
                     <p>Real fell:

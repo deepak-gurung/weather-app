@@ -3,6 +3,7 @@ import TopButton from './components/TopButton'
 import InputField from './components/InputField'
 import TimeAndLocation from './components/TimeAndLocation'
 import TemperatureAndDetails from './components/TemperatureAndDetails'
+import ForeCast from './components/ForeCast'
 
 const App = () => {
   return (
@@ -11,6 +12,9 @@ const App = () => {
       <InputField />
       <TimeAndLocation />
       <TemperatureAndDetails />
+      <ForeCast title="HOURLY FORECAST" />
+      <ForeCast title="WEEKLY FORECAST" />
+
     </div>
   )
 }
